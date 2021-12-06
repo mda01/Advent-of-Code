@@ -92,6 +92,10 @@ let solve3_2 nums =
 
 Sys.command "clear";;
 
-solve3_1 lines;;
+print_int (solve3_1 lines);;
 
-solve3_2 lines;;
+print_newline ();;
+
+print_int (solve3_2 lines);;
+
+print_newline ()

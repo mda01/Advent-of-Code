@@ -24,8 +24,10 @@ let rec solve1_2 l =
   | _ -> 0
 ;;
 
-Sys.command "clear";;
+print_int (solve1_1 nums);;
 
-solve1_1 nums;;
+print_newline ();;
 
-solve1_2 nums;;
+print_int (solve1_2 nums);;
+
+print_newline ()

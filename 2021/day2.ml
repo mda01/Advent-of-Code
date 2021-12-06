@@ -37,6 +37,10 @@ let rec solve2_2 entries =
 
 Sys.command "clear";;
 
-solve2_1 entries;;
+print_int (solve1_2 nums);;
 
-solve2_2 entries;;
+print_newline ();;
+
+print_int (solve1_2 nums);;
+
+print_newline ()

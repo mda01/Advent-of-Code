@@ -11,7 +11,8 @@ for line in f.readlines():
             (int(line[1][0]),
              int(line[1][1])))
     lines.append(line)
-                
+
+
 def solve5_1():
     grid = [[0 for x in range(1000)] for x in range(1000)]
     for (x1, y1), (x2, y2) in lines:
@@ -26,9 +27,10 @@ def solve5_1():
     cnt = 0
     for l in grid:
         for v in l:
-            if v > 1 :
+            if v > 1:
                 cnt += 1
     print(cnt)
+
 
 def solve5_2():
     grid = [[0 for x in range(1000)] for x in range(1000)]
@@ -50,9 +52,10 @@ def solve5_2():
     cnt = 0
     for l in grid:
         for v in l:
-            if v > 1 :
+            if v > 1:
                 cnt += 1
     print(cnt)
-                
+
+
 solve5_1()
 solve5_2()

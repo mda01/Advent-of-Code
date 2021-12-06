@@ -43,7 +43,7 @@ def winner(compare_list, ind):
     for x in compare_list:
         if x[ind] == '1':
             cnt += 1
-    return '1' if 2* cnt >= len(compare_list) else '0'
+    return '1' if 2 * cnt >= len(compare_list) else '0'
 
 
 def solve3_2():
