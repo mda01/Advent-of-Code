@@ -27,3 +27,15 @@ static void solve1_2(ifstream &in) {
     }
     cout << cnt << endl;
 }
+
+
+int main(int argc, char** argv) {
+    ifstream in;
+    in.open("2021/input1.txt");
+    solve1_1(in);
+    in.close();
+    in.open("2021/input1.txt");
+    solve1_2(in);
+    in.close();
+    return 0;
+};
