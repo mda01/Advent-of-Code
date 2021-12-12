@@ -1,4 +1,4 @@
-f = open('2021/input6.txt')
+f = open('../input6.txt')
 
 init_state = list(map(lambda x: int(x), f.readline().rstrip('\n').split(",")))
 

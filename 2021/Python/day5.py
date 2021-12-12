@@ -1,4 +1,4 @@
-f = open('2021/input5.txt')
+f = open('../input5.txt')
 
 lines = list()
 

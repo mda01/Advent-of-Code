@@ -1,4 +1,4 @@
-f = open('2021/input1.txt')
+f = open('../input1.txt')
 
 nums = list()
 

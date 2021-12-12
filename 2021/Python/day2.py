@@ -1,4 +1,5 @@
-f = open("2021/input2.txt")
+f = open("../input2.txt")
+
 lines = list()
 
 for line in f.readlines():

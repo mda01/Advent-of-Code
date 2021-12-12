@@ -1,6 +1,6 @@
 import re
 
-f = open('2021/input4.txt')
+f = open('../input4.txt')
 
 lines = list()
 

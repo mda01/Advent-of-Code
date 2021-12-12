@@ -1,8 +1,4 @@
-from math import sqrt
-
-import matplotlib.pyplot as plt
-
-f = open('2021/input7.txt')
+f = open('../input7.txt')
 
 init_state = list(map(lambda x: int(x), f.readline().rstrip('\n').split(",")))
 
@@ -53,7 +49,6 @@ def solve7_1():
             a = b
             b = x2
 
-    print(b)
     print(compute_cost1(nums, b))
 
 
@@ -88,7 +83,6 @@ def solve7_2():
             a = b
             b = x2
 
-    print(b)
     print(compute_cost2(nums, b))
 
 
