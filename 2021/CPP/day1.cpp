@@ -38,4 +38,4 @@ int main(int argc, char **argv) {
     solve1_2(in);
     in.close();
     return 0;
-};
+}

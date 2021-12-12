@@ -46,4 +46,4 @@ int main(int argc, char **argv) {
     solve2_2(in);
     in.close();
     return 0;
-};
+}

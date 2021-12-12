@@ -87,4 +87,4 @@ int main(int argc, char **argv) {
     solve11_2(in);
     in.close();
     return 0;
-};
+}
