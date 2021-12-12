@@ -29,12 +29,12 @@ static void solve1_2(ifstream &in) {
 }
 
 
-int main(int argc, char** argv) {
+int main(int argc, char **argv) {
     ifstream in;
-    in.open("2021/input1.txt");
+    in.open("../input1.txt");
     solve1_1(in);
     in.close();
-    in.open("2021/input1.txt");
+    in.open("../input1.txt");
     solve1_2(in);
     in.close();
     return 0;

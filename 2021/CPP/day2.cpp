@@ -39,10 +39,10 @@ static void solve2_2(ifstream &in) {
 
 int main(int argc, char **argv) {
     ifstream in;
-    in.open("2021/input2.txt");
+    in.open("../input2.txt");
     solve2_1(in);
     in.close();
-    in.open("2021/input2.txt");
+    in.open("../input2.txt");
     solve2_2(in);
     in.close();
     return 0;
